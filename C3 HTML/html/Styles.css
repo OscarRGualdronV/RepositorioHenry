@@ -1,0 +1,160 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #cdebf9;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+  
+    
+   
+}
+.container{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    justify-content: space-around;
+}
+
+.menucontainer{
+
+    display: flex;
+    width: 80%;
+    height: 40%;
+    align-self: center;
+    justify-content: space-around;
+    margin: auto;
+    flex-direction: row; 
+    
+}
+
+.item{
+    font-size: 1rem;
+    margin-bottom: .5em;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    
+}
+
+.item::before{
+    content: "";
+    display: block;
+    background: slateblue;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 0.3s ease;
+    z-index: -1;
+}
+
+.item:hover::before{
+    width: 100%;
+}
+.imgp{
+    max-height: 20vw;
+    max-width: 100%;
+    height: auto;
+    padding: 1em;
+}
+
+.title{
+    font-size: 1.5em;
+    color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+  
+      
+}
+.tramites {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.modalidades {
+    display: flex;
+    margin-left: 2.5%;
+}
+
+.licencias {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.ph {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.us {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.usos {
+    display: flex;
+    margin-left: 2.5%;
+}
+
+
+.logo{
+    width: 400px ;
+    border: 2px solid rgb(20, 79, 189);
+    width: 40vw;
+    border-radius: 9%;
+    transition: 1s;
+    display: flex;
+    justify-content: space-around;   
+}
+
+
+#cards-container{
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#principal{
+    font-size: 2em;
+    color: blue;
+     
+}
+
+h1{
+    width: 60vw;
+    margin: auto;
+    padding: auto;
+    border-color: beige;
+    display: flex;  
+}
+
+a:hover{
+    background-color: coral;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}

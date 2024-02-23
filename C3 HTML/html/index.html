@@ -3,108 +3,165 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scalet=1.0">
+        <link rel="stylesheet" href="./Styles.css" />
+        <link rel="stylesheet" href="./reset.css">
         <title>Documento</title>
     </head>
-   
-    <body>
 
+    <body>
         <header>
-            <h1>Espacios I + O</h1>
-            <h3>Realizamos los siguientes tramites:</h3>
-            <div>
-                <samp>Licencias de Construccion</samp>
+            <div class="container">
+                <div class="containerlogo">
+                    <a href="./index.html">
+                        <img src="./LOGO INSTAGRAM.jpg" class="imgp"/>
+                    </a>
+                </div>
+                <div class="menucontainer">
+                    <h3 class="name item">Inicio</h3>
+                    <h3 class="name item">Proyectos en venta</h3>
+                    <h3 class="name item">Proyectos realizados</h3>
+                    <h3 class="name item">Contacto</h3>
+                    <h3 class="name item">Nosotros</h3>
+                </div>
             </div>
-            <div>
-                <samp>Propiedad Horizontal</samp>
+                
+
+            <div id="cards-container">
+                <div>
+                    <img src="./pexels-expect-best-323780.jpg" class="logo"/>
+                </div>
+                <div>
+                    <img src="./pexels-pavel-danilyuk-7937323.jpg" class="logo"/>
+                </div>
             </div>
-                <samp>Uso de suelos</samp>
+                
+                <div>
+                    <h2 class="title">Realizamos los siguientes tramites</h2>
+                </div>
+                <div class="tramites">
+                    <div>
+                        <h3>Licencias de Construccion</h3>
+                    </div>
+                    <div>
+                        <h3>Propiedad Horizontal</h3>
+                    </div>
+                    <div>
+                        <h3>Uso de suelos</h3>
+                    </div>
+                </div>
+            <div>
         </header>
 
         <main>
-            <br />
-            <img src="./pexels-expect-best-323780.jpg"/>
-
+            
             <section>
-                <h2>Licencias de Construccion</h2>
-                
+                <div>
+                    <h2 class="title">Licencias de Construccion</h2>
+                </div>
                 <article> 
-                    <div>
+                    <div class="licencias">
                         <p>¿Que es una licencia de construcción?</p>
+                        <br>
                         <p>Es un permiso previo para de desarrollo de cualquier tipo de construcción, 
                             en uno o varios predios. Estas licencias son otorgadas por la curaduría, 
                             entes distritales o municipales. Estas entidades deben hacer cumplir los usos, 
                             edificabilidad, accesibilidad y aspectos técnicos aprobados para las respectivas construcciones. 
                             Teniendo en cuenta los planes de ordenamiento territorial y los planes especiales de manejo de recursos de cada ciudad.
                         </p>
+                        <br>
                         <p>Sus modalidades son:</p>
-                         
-                    <ol>
-                        <li>Obra Nueva</li>
-                        <li>Ampliación</li>
-                        <li>Modificación</li>
-                        <li>Restauración</li>
-                        <li>Demolición</li>
-                    </ol>  
+    
+                        <br>
+                        <div class="modalidades">
+                            <ol>
+                                <li>Obra Nueva</li>
+                                <li>Ampliación</li>
+                                <li>Modificación</li>
+                                <li>Restauración</li>
+                                <li>Demolición</li>
+                            </ol>  
+                        </div>
+    
                     </div>
                 </article> 
-             
+
+                                        
                 <hr />
-                
-                <h2>Propiedad horizontal</h2>
-                
+                <div>
+                    <h2 class="title">Propiedad horizontal</h2>
+                </div>
+
                 <article>
-                    <p>¿Que es Propiedad horizontal?</p>
-                    <p>La propiedad horizontal es una figura jurídica en que se organizan inmuebles que 
-                        comparten zonas comunes a todos, al tiempo que cada uno tiene sus áreas privadas.
+                    <div class="ph">
+                        <p>¿Que es Propiedad horizontal?</p>
                         <br>
-                       La propiedad horizontal se denomina también copropiedad porque los inmuebles, 
-                       además de compartir espacios físicos comunes comparten la gestión, administración 
-                       y mantenimiento de esos espacios comunes.
-                    </p>
+                        <p>La propiedad horizontal es una figura jurídica en que se organizan inmuebles que 
+                            comparten zonas comunes a todos, al tiempo que cada uno tiene sus áreas privadas.
+                            <br>
+                            La propiedad horizontal se denomina también copropiedad porque los inmuebles, 
+                            además de compartir espacios físicos comunes comparten la gestión, administración 
+                            y mantenimiento de esos espacios comunes.
+                        </p>
+                    </div>
                 </article>
-
                 <hr />
-                     
-                <h3>Uso de Suelos</h3>
                 
-                <article>   
-                    <p>¿Que es Uso de Suelos?</p>
-                    <p>A pesar de que pueda parecer que sí, no todos los suelos pueden ser utilizados para lo mismo. 
-                     Por ello, teniendo en cuenta las características medioambientales y otras particularidades del entorno,
-                     se determina cuál es la finalidad permitida en cada tierra específica. 
-                     <br>
-                     Así, el uso del suelo puede definirse como la clasificación que se le asigna a un terreno físico 
-                     (y a sus recursos) para determinar su utilización y finalidad. El uso del suelo es, por lo tanto, 
-                     la caracterización de un terreno dependiendo de para qué vaya a ser utilizado según sus particularidades físicas y biológicas.
-                     </p>
-                     <p>Sus dos modalidades son:</p>
+
+                    <div>
+                        <h2 class="title">Uso de Suelos</h2>
+                    </div>
+
+                    <article>   
+                        <div class="us">
+                            <p>¿Que es Uso de Suelos?</p>
+                            <br>
+                            <p>A pesar de que pueda parecer que sí, no todos los suelos pueden ser utilizados para lo mismo. 
+                                Por ello, teniendo en cuenta las características medioambientales y otras particularidades del entorno,
+                                se determina cuál es la finalidad permitida en cada tierra específica. 
+                                <br>
+                                Así, el uso del suelo puede definirse como la clasificación que se le asigna a un terreno físico 
+                                (y a sus recursos) para determinar su utilización y finalidad. El uso del suelo es, por lo tanto, 
+                                la caracterización de un terreno dependiendo de para qué vaya a ser utilizado según sus particularidades físicas y biológicas.
+                            </p>
+                            <br>
+                            <p>Sus dos modalidades son:</p>
+                            <br>
+                            <div class="usos"> 
+                                <ul>
+                                    <li>Uso de Suelos Residencial</li>
+                                    <li>Uso de Suelos Economico-Industrial</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </article>
+
+
+                    </section>
+            
+                    </main>
+            
+                    <hr />
+<div class="footer">
+
+    <footer>
+        <p>
+            Ingresa tus datos y nos contactaremos contigo 
+        </p>
+        
+        <br>
+        <a href="./contacto.html">Formulario de contacto</a>
+    </footer>
+</div>
+
+
+
+                  
                     
-                    <ul>
-                        <li>Uso de Suelos Residencial</li>
-                        <li>Uso de Suelos Economico-Industrial</li>
-                    </ul>
-                </article>
+                </body>
+            </html>
+                            
+                        
                      
-        </section>
-
-        </main>
-
-        <hr />
-
-        <footer>
-            <p>
-                Ingresa tus datos y nos contactaremos contigo 
-            </p>
-           
-            <br>
-            <a href="./contacto.html">Formulario de contacto</a>
-        </footer>
-      
-
-        
-
-
-        
-    </body>
-</html>
+                
+                     
         
